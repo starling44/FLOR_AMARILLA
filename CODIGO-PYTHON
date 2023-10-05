@@ -9,7 +9,7 @@ tur.fd(200)
 tur.pendown()
 tur.right(90)
 
-tur.fillcolor("yellow")
+tur.fillcolor("red")
 tur.begin_fill()
 tur.circle(10, 180)
 tur.circle(25, 110)
@@ -88,7 +88,7 @@ tur.penup()
 tur.goto(0,310)  # Posición donde deseas agregar el texto
 tur.pendown()
 tur.color("black")  # Color del texto
-tur.write("PARA TI HERMOSA!!", align="center", font=("Stencil", 45, "italic"))
+tur.write("PARA TI HERMOSA!!", align="center", font=("Stencil", 24, "italic"))
 
 
 # Mueve la pluma a la posición donde deseas dibujar el corazón
